@@ -45,5 +45,6 @@ if __name__ == "__main__":
     joblib.dump(model, "model.pkl")
 
     print("Model training completed successfully.")
+    print("Cooked!")
     print(f"Test accuracy: {accuracy:.2%}")
     print("Model saved as model.pkl")
